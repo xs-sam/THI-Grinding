@@ -1,0 +1,2 @@
+set(thi_vision_MESSAGE_FILES "/home/xs/sifc/project/ros/workProject/tianyuan/src/vision/thi_vision/msg/position.msg;/home/xs/sifc/project/ros/workProject/tianyuan/src/vision/thi_vision/msg/orientation.msg;/home/xs/sifc/project/ros/workProject/tianyuan/src/vision/thi_vision/msg/pose.msg;/home/xs/sifc/project/ros/workProject/tianyuan/src/vision/thi_vision/msg/track.msg;/home/xs/sifc/project/ros/workProject/tianyuan/src/vision/thi_vision/msg/pcArea.msg")
+set(thi_vision_SERVICE_FILES "/home/xs/sifc/project/ros/workProject/tianyuan/src/vision/thi_vision/srv/visionTracks.srv")

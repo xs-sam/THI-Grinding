@@ -1,0 +1,49 @@
+# 上半件存储点云的基础位置和拍照的法兰盘位姿存储文件 以及保存的文件名和区域个数
+# 点云存于 base下的PointCloud/下
+# 位姿存于 base下的pose文件中
+# 合成的保存文件在 base下的save中
+upPc:
+    base: /home/xs/pc/pc_merge/up1/
+    pose: pose.txt
+    save: up.ply
+    pcNum: 6
+
+# 下半件存储点云的基础位置和拍照的法兰盘位姿存储文件 以及保存的文件名和区域个数
+# 下右半件
+downRightPc:
+   base: /home/xs/pc/pc_merge/down/
+   pose: pose.txt
+   save: down.ply
+   pcNum: 6
+
+# 下左半件
+downLeftPc:
+  base: /home/xs/pc/pc_merge/down/
+  pose: pose.txt
+  save: down.ply
+  pcNum: 6
+
+# 手眼矩阵关系转换
+## 相机到tcp标定坐标系的旋转矩阵平移单位为mm 由相机标定软件得到 默认矩阵最后一行为 0 0 0 1
+cam2tcp:
+    R00: 1.000
+    R01: -0.011
+    R02: 0.004
+    R03: 360.858
+    R10: -0.004
+    R11: 0.016
+    R12: 1.000
+    R13: 230.384
+    R20: -0.011
+    R21: -1.000
+    R22: 0.015
+    R23: -613.148
+
+## tcp坐标系到法兰盘的转换单位为mm和度 由示教器得到 a为rx角 b为ry角 c为rz角
+tcp2link:
+    x: 609.56
+    y: -35.28
+    z: 388.42
+    a: 0
+    b: 90
+    c: 0

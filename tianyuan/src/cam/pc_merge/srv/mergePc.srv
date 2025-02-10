@@ -1,0 +1,5 @@
+int32 workpiece # 0是上半件 1是下右半件 2是下左半件
+int32 pcnum # 需要合成的点云数量 如果为-1 则采用参数文件中的量
+string saveName # 保存的文件名 为空则用参数文件中的值
+---
+bool ok

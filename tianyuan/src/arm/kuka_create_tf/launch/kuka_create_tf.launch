@@ -1,0 +1,4 @@
+<launch>
+    <rosparam file="$(find kuka_create_tf)/param/kuka_create_tf.yaml" command="load"/>
+    <node name="kuka_create_tf" pkg="kuka_create_tf" type="kuka_create_tf" output="screen" required="true"/>
+</launch>

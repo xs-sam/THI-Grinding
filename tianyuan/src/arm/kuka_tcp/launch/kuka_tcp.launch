@@ -1,0 +1,4 @@
+<launch>
+    <rosparam file="$(find kuka_tcp)/param/kuka_tcp.yaml" command="load"/>
+    <node name="kuka_tcp" pkg="kuka_tcp" type="kuka_tcp" output="screen" required="true"/>
+</launch>

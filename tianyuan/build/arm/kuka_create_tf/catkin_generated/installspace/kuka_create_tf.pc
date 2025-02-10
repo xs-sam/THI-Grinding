@@ -1,0 +1,8 @@
+prefix=/home/xs/sifc/project/ros/workProject/tianyuan/install
+
+Name: kuka_create_tf
+Description: Description of kuka_create_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

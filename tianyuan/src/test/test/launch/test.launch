@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find kuka_create_tf)/launch/kuka_create_tf.launch" />
+    <include file="$(find thi_vision)/launch/thi_vision.launch" />
+    <node name="test_node" pkg="test" type="test_node" output="screen"/>
+</launch>
+ 

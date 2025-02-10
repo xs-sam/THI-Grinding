@@ -1,0 +1,8 @@
+prefix=/home/xs/sifc/project/ros/workProject/tianyuan/install
+
+Name: pc_merge
+Description: Description of pc_merge
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp sensor_msgs std_msgs message_runtime

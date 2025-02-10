@@ -1,0 +1,15 @@
+string pointCloudFile
+string fileType     # "ply" "pcd" "txt"
+int32  workpiece    #工件号 0:上半间 1:下半件 右面
+float32 press       #下压量
+float32 width       #道宽 单位mm
+float32 grooveWidth #预留的槽宽
+float32 avoidLeft   #x轴正方向左侧避障弧长
+float32 avoidRight  #x轴正方向右侧避障弧长
+float32 length      #可打磨的最长区域
+orientation angleLeft  #x轴正方向左侧避障固定姿态角度(a,b,c对应法兰盘rpy)
+orientation angleRight #x轴正方向右侧避障固定姿态角度
+pcArea[] listPcAreas
+---
+track[] tracks
+bool ok

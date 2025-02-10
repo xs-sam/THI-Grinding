@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find kuka_tcp)/launch/kuka_tcp.launch" />
+    <include file="$(find kuka_pose_topic_conversion)/launch/kuka_pose_topic_conversion.launch" />
+    <include file="$(find kuka_create_tf)/launch/kuka_create_tf.launch" />
+</launch>

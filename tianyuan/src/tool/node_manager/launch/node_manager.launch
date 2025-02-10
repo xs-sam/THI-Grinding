@@ -1,0 +1,4 @@
+<launch>
+    <node name="node_manager" pkg="node_manager" type="node_manager_node.py" output="screen"/>
+</launch>
+ 

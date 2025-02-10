@@ -1,0 +1,4 @@
+<launch>
+    <rosparam file="$(find thi_vision)/param/thi_vision.yaml" command="load"/>
+    <node name="thi_vision" pkg="thi_vision" type="thi_vision" output="screen" required="true"/>
+</launch>

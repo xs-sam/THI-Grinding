@@ -1,0 +1,8 @@
+prefix=/home/xs/sifc/project/ros/workProject/tianyuan/install
+
+Name: kuka_pose_topic_conversion
+Description: Description of kuka_pose_topic_conversion
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: kuka_tcp

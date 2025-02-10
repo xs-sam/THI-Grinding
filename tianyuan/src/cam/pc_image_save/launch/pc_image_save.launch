@@ -1,0 +1,3 @@
+<launch>
+    <node name="pc_image_save" pkg="pc_image_save" type="pc_image_save" output="screen" required="true"/>
+</launch>

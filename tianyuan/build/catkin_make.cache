@@ -1,0 +1,2 @@
+arm/arm_bringup:arm/kuka_create_tf:arm/kuka_pose_topic_conversion:arm/kuka_tcp:cam/pc_image_save:cam/pc_merge:test/tcp_test:test/test:tool/node_manager:vision/thi_vision
+-G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/xs/sifc/project/ros/workProject/tianyuan/devel -DCMAKE_INSTALL_PREFIX=/home/xs/sifc/project/ros/workProject/tianyuan/install

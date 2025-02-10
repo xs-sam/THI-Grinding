@@ -1,0 +1,6 @@
+string nodeType # launch / node
+string packName # 包名
+string nodeName # .launch名字 / 节点名字
+string nodeState # start / stop
+---
+bool ok

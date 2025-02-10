@@ -1,0 +1,18 @@
+# 打磨路径过度点z方向抬高值 单位为m
+up:
+    firstZ1: 1  # 第一条路径落刀点
+    firstZ2: 1  # 第二条路径落刀点
+    lastZ1: 1   # 第一条路径起刀点
+    lastZ2: 1   # 第二条路径起刀点
+down:
+    firstZ1: 1  # 第一条路径落刀点
+    firstZ2: 1  # 第二条路径落刀点
+    firstZ3: 1  # 第三条路径落刀点
+    lastZ1: 1   # 第一条路径起刀点
+    lastZ2: 1   # 第二条路径起刀点
+    lastZ3: 1   # 第三条路径起刀点
+
+# 挡板X方向的坐标距离(base下) 单位为mm
+baffleX: 1230
+# 地面Z方向的坐标距离(base下) 单位为mm
+groundZ: -500

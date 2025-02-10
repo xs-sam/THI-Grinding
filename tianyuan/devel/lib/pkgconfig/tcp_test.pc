@@ -1,0 +1,8 @@
+prefix=/home/xs/sifc/project/ros/workProject/tianyuan/devel
+
+Name: tcp_test
+Description: Description of tcp_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

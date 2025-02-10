@@ -1,0 +1,4 @@
+<launch>
+    <rosparam file="$(find pc_merge)/param/pc_merge.yaml" command="load"/>
+    <node name="pc_merge" pkg="pc_merge" type="pc_merge" output="screen" required="true"/>
+</launch>

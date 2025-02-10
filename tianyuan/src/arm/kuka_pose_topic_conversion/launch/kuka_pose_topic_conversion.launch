@@ -1,0 +1,4 @@
+<launch>
+    <node name="kuka_pose_topic_conversion" pkg="kuka_pose_topic_conversion" type="kuka_pose_topic_conversion" output="screen" required="true"/>
+    <node name="toolpose" pkg="kuka_pose_topic_conversion" type="toolpose" output="screen" required="true"/>
+</launch>

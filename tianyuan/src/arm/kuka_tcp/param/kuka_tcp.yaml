@@ -1,0 +1,38 @@
+# TCP相关参数
+tcp:
+    #ip: 172.31.1.14  # 服务器的IP地址
+    ip: 192.168.2.113
+    port: 54600  # 服务器的端口号
+    maxConnect: 10 # 最大重连tcp次数
+
+# 机器人相关参数
+robot:
+    maxConnect: 10 # 最大重连机器人次数
+    chunkPointNum: 10 # 每一块路径的点数(当前机器人为10 调试更改机器人代码后需要统一更改)
+
+    # 向机器人发送的参数名
+    send:
+        pointNum: C2R/C_R_PointNumber # 路径点数
+        robotSpeed: C2R/C_R_RobotSpeed # 机器人移动速度
+        moveMode: C2R/C_R_FunctionCode # 移动方式
+        X: C2R/POSITION/C_R_X # 发送的X
+        Y: C2R/POSITION/C_R_Y # 发送的Y
+        Z: C2R/POSITION/C_R_Z # 发送的Z
+        A: C2R/POSITION/C_R_A # 发送的A
+        B: C2R/POSITION/C_R_B # 发送的B
+        C: C2R/POSITION/C_R_C # 发送的C
+        sigStart: C2R/C_R_SIG_START # 机器人开始接收路径信息
+        positionStart: C2R/C_R_POSITION_START # 机器人开始接收点位
+
+    # 从机器人接收的参数名
+    receive:
+        X: R2C/Always/CURRENT_POSITION/X # 机器人当前X
+        Y: R2C/Always/CURRENT_POSITION/Y # 机器人当前Y
+        Z: R2C/Always/CURRENT_POSITION/Z # 机器人当前Z
+        A: R2C/Always/CURRENT_POSITION/A # 机器人当前A
+        B: R2C/Always/CURRENT_POSITION/B # 机器人当前B
+        C: R2C/Always/CURRENT_POSITION/C # 机器人当前C
+        connectOk: R2C/R_C_CONNECTION_STATUS # 连接成功
+        startNewRound: R2C/R_C_NEWROUND # 可以开始发送下一轮数据
+
+
